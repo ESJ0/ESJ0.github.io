@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jose Abril · Portafolio</title>
+  <meta name="description" content="Portafolio de Jose Abril (ESJ0), estudiante de Ciencias de la Computación y desarrollador full-stack con proyectos web, móviles y de gráficos por computadora.">
+  <meta name="theme-color" content="#07111f">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="shortcut icon" href="assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="nav" id="top">
+    <a href="#inicio" class="logo">J<span>.</span>Abril</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav id="menu">
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#contacto" class="nav-cta">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- INICIO -->
+    <section class="hero" id="inicio">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h1 class="typewriter-heading" data-typewriter aria-label="Soy Jose Abril. Construyo software full-stack."><span class="type-line"><span class="type-segment" aria-hidden="true">Soy </span><span class="type-segment accent" aria-hidden="true">Jose Abril.</span></span><span class="type-line"><span class="type-segment" aria-hidden="true">Construyo</span></span><span class="type-line"><span class="type-segment" aria-hidden="true">software full-stack.</span><span class="typing-caret" aria-hidden="true"></span></span></h1>
+          <p class="lead">Estudiante de tercer año de Ciencias de la Computación en la UVG. Diseño APIs REST en Go, interfaces con React y apps móviles en Kotlin, con PostgreSQL y Docker de base.</p>
+          <div class="hero-actions">
+            <a href="#proyectos" class="btn btn-primary">Ver proyectos</a>
+            <a href="https://github.com/ESJ0" class="btn btn-ghost" target="_blank" rel="noopener">GitHub →</a>
+          </div>
+          <ul class="hero-stats" aria-label="Resumen profesional">
+            <li><strong>3.er año</strong><span class="mono">UVG · Computación</span></li>
+            <li><strong>6</strong><span class="mono">Lenguajes</span></li>
+            <li><strong>B2</strong><span class="mono">Inglés</span></li>
+          </ul>
+        </div>
+        <aside class="stack-panel" aria-label="Resumen de mi stack tecnológico">
+          <div class="stack-panel-head">
+            <strong class="mono">Mi stack</strong>
+          </div>
+          <div class="stack-layers">
+            <button class="stack-layer" type="button" data-stack-layer>
+              <span class="stack-number mono">01</span>
+              <span><strong>Cliente</strong><small class="mono">React · Vite · TypeScript · Jetpack Compose</small></span>
+            </button>
+            <button class="stack-layer is-active" type="button" data-stack-layer>
+              <span class="stack-number mono">02</span>
+              <span><strong>API REST</strong><small class="mono">Go · Node.js · Express · JWT</small></span>
+            </button>
+            <button class="stack-layer" type="button" data-stack-layer>
+              <span class="stack-number mono">03</span>
+              <span><strong>Datos</strong><small class="mono">PostgreSQL · SQLite · Room</small></span>
+            </button>
+            <button class="stack-layer" type="button" data-stack-layer>
+              <span class="stack-number mono">04</span>
+              <span><strong>Despliegue</strong><small class="mono">Docker · Render · GitHub Pages · Linux</small></span>
+            </button>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- SOBRE MÍ -->
+    <section class="section" id="sobre-mi">
+      <div class="container">
+        <h2 class="section-title"><span class="mono num">01</span> Sobre mí</h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>Estudio Ciencias de la Computación en la Universidad del Valle de Guatemala. Disfruto convertir una idea en un producto funcional y entender cómo se conectan sus distintas capas: interfaz, lógica de negocio, API y datos.</p>
+            <p>Mi experiencia académica incluye aplicaciones web y móviles, servicios REST, bases de datos relacionales y despliegues con contenedores. He trabajado tanto de forma individual como en equipo, buscando escribir software mantenible y resolver problemas con criterio técnico.</p>
+            <p class="note mono">Full-stack · Aplicaciones móviles · Aprendizaje continuo</p>
+          </div>
+          <aside class="about-strengths" aria-labelledby="strengths-title">
+            <span class="strengths-kicker mono">Perfil</span>
+            <h3 id="strengths-title">Principales aptitudes</h3>
+            <ul>
+              <li><span class="mono">01</span><div><strong>Pensamiento analítico</strong><small>Dividir problemas complejos en soluciones claras y comprobables.</small></div></li>
+              <li><span class="mono">02</span><div><strong>Trabajo en equipo</strong><small>Comunicar decisiones y colaborar con objetivos compartidos.</small></div></li>
+              <li><span class="mono">03</span><div><strong>Aprendizaje autónomo</strong><small>Adaptarme con rapidez a herramientas y retos nuevos.</small></div></li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- HABILIDADES -->
+    <section class="section alt" id="habilidades">
+      <div class="container">
+        <h2 class="section-title"><span class="mono num">02</span> Habilidades</h2>
+        <div class="skills">
+          <article class="skill-folder">
+            <button class="skill-folder-toggle" type="button" aria-expanded="false" aria-controls="skills-languages" data-skill-folder>
+              <span class="folder-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M5 13a5 5 0 0 1 5-5h10l5 6h13a5 5 0 0 1 5 5v19a5 5 0 0 1-5 5H10a5 5 0 0 1-5-5V13Z"/></svg></span>
+              <span class="folder-copy"><strong>Lenguajes</strong><em>6 elementos</em></span>
+              <span class="folder-toggle-icon" aria-hidden="true"><svg viewBox="0 0 20 20"><path d="m5 7.5 5 5 5-5"/></svg></span>
+            </button>
+            <div class="skill-folder-content" id="skills-languages" aria-hidden="true">
+              <div class="skill-items">
+                <div class="skill-item"><span class="skill-logo"><i class="devicon-go-original-wordmark colored"></i></span><span>Go</span></div>
+                <div class="skill-item"><span class="skill-logo"><i class="devicon-kotlin-plain colored"></i></span><span>Kotlin</span></div>
+                <div class="skill-item"><span class="skill-logo skill-logos"><i class="devicon-javascript-plain colored"></i><i class="devicon-typescript-plain colored"></i></span><span>JavaScript / TypeScript</span></div>
+                <div class="skill-item"><span class="skill-logo"><i class="devicon-java-plain colored"></i></span><span>Java</span></div>
+                <div class="skill-item"><span class="skill-logo"><i class="devicon-python-plain colored"></i></span><span>Python</span></div>
+                <div class="skill-item"><span class="skill-logo"><i class="devicon-rust-original"></i></span><span>Rust</span></div>
+              </div>
+            </div>
+          </article>
+          <article class="skill-folder">
+            <button class="skill-folder-toggle" type="button" aria-expanded="false" aria-controls="skills-frontend" data-skill-folder>
+              <span class="folder-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M5 13a5 5 0 0 1 5-5h10l5 6h13a5 5 0 0 1 5 5v19a5 5 0 0 1-5 5H10a5 5 0 0 1-5-5V13Z"/></svg></span>
+              <span class="folder-copy"><strong>Frontend y móvil</strong><em>4 elementos</em></span>
+              <span class="folder-toggle-icon" aria-hidden="true"><svg viewBox="0 0 20 20"><path d="m5 7.5 5 5 5-5"/></svg></span>
+            </button>
+            <div class="skill-folder-content" id="skills-frontend" aria-hidden="true">
+              <div class="skill-items">
+                <div class="skill-item"><span class="skill-logo"><i class="devicon-react-original colored"></i></span><span>React</span></div>
+                <div class="skill-item"><span class="skill-logo"><i class="devicon-vitejs-plain colored"></i></span><span>Vite</span></div>
+                <div class="skill-item"><span class="skill-logo"><i class="devicon-jetpackcompose-plain colored"></i></span><span>Jetpack Compose</span></div>
+                <div class="skill-item"><span class="skill-logo skill-logos"><i class="devicon-html5-plain colored"></i><i class="devicon-css3-plain colored"></i></span><span>HTML / CSS</span></div>
+              </div>
+            </div>
+          </article>
+          <article class="skill-folder">
+            <button class="skill-folder-toggle" type="button" aria-expanded="false" aria-controls="skills-backend" data-skill-folder>
+              <span class="folder-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M5 13a5 5 0 0 1 5-5h10l5 6h13a5 5 0 0 1 5 5v19a5 5 0 0 1-5 5H10a5 5 0 0 1-5-5V13Z"/></svg></span>
+              <span class="folder-copy"><strong>Backend y datos</strong><em>6 elementos</em></span>
+              <span class="folder-toggle-icon" aria-hidden="true"><svg viewBox="0 0 20 20"><path d="m5 7.5 5 5 5-5"/></svg></span>
+            </button>
+            <div class="skill-folder-content" id="skills-backend" aria-hidden="true">
+              <div class="skill-items">
+                <div class="skill-item"><span class="skill-logo"><i class="devicon-go-original-wordmark colored"></i></span><span>Go</span></div>
+                <div class="skill-item"><span class="skill-logo"><i class="devicon-nodejs-plain colored"></i></span><span>Node.js</span></div>
+                <div class="skill-item"><span class="skill-logo"><i class="devicon-express-original"></i></span><span>Express</span></div>
+                <div class="skill-item"><span class="skill-logo"><b class="skill-glyph mono">API</b></span><span>REST APIs</span></div>
+                <div class="skill-item"><span class="skill-logo"><i class="devicon-postgresql-plain colored"></i></span><span>PostgreSQL</span></div>
+                <div class="skill-item"><span class="skill-logo"><i class="devicon-sqlite-plain colored"></i></span><span>SQLite</span></div>
+              </div>
+            </div>
+          </article>
+          <article class="skill-folder">
+            <button class="skill-folder-toggle" type="button" aria-expanded="false" aria-controls="skills-tools" data-skill-folder>
+              <span class="folder-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M5 13a5 5 0 0 1 5-5h10l5 6h13a5 5 0 0 1 5 5v19a5 5 0 0 1-5 5H10a5 5 0 0 1-5-5V13Z"/></svg></span>
+              <span class="folder-copy"><strong>Herramientas</strong><em>5 elementos</em></span>
+              <span class="folder-toggle-icon" aria-hidden="true"><svg viewBox="0 0 20 20"><path d="m5 7.5 5 5 5-5"/></svg></span>
+            </button>
+            <div class="skill-folder-content" id="skills-tools" aria-hidden="true">
+              <div class="skill-items">
+                <div class="skill-item"><span class="skill-logo"><i class="devicon-docker-plain colored"></i></span><span>Docker</span></div>
+                <div class="skill-item"><span class="skill-logo skill-logos"><i class="devicon-git-plain colored"></i><i class="devicon-github-original"></i></span><span>Git / GitHub</span></div>
+                <div class="skill-item"><span class="skill-logo"><i class="devicon-linux-plain"></i></span><span>Linux</span></div>
+                <div class="skill-item"><span class="skill-logo"><i class="devicon-vitest-plain colored"></i></span><span>Vitest</span></div>
+                <div class="skill-item"><span class="skill-logo"><i class="devicon-openapi-plain colored"></i></span><span>OpenAPI</span></div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROYECTOS -->
+    <section class="section" id="proyectos">
+      <div class="container">
+        <h2 class="section-title"><span class="mono num">03</span> Proyectos</h2>
+        <p class="section-sub">Una selección de productos full-stack, desarrollo móvil y gráficos por computadora.</p>
+
+        <div class="project-view-switch" role="group" aria-label="Cambiar la vista de proyectos">
+          <span class="project-view-label mono">Vista</span>
+          <button class="view-option is-active" type="button" data-project-view="carousel" aria-pressed="true">
+            <span aria-hidden="true">▭</span> Cinta
+          </button>
+          <button class="view-option" type="button" data-project-view="grid" aria-pressed="false">
+            <span aria-hidden="true">▦</span> Cuadrícula
+          </button>
+        </div>
+
+        <div class="projects-stage" data-projects-stage data-view="carousel">
+          <button class="carousel-arrow carousel-prev" type="button" aria-label="Ver el proyecto anterior" aria-controls="projectsTrack">←</button>
+
+          <div class="projects-window" tabindex="0" role="region" aria-roledescription="carrusel" aria-label="Proyectos destacados">
+            <div class="projects" id="projectsTrack">
+
+          <article class="project" data-project-name="FarmaCom">
+            <div class="project-main">
+              <div class="project-top"><span class="tag mono">Node.js · React · PostgreSQL</span><span class="project-index mono">01 / 06</span></div>
+              <h3>FarmaCom · Gestión para farmacias</h3>
+              <p>Sistema de gestión para la cadena de farmacias San Gabriel, desarrollado en equipo bajo Scrum y desplegado en un servidor.</p>
+              <ul class="meta mono">
+                <li>Autenticación con roles</li>
+                <li>Sucursales, usuarios e inventario de productos</li>
+                <li>Docker Compose: base de datos, API y frontend</li>
+              </ul>
+              <div class="project-actions">
+                <div class="project-links"><a class="btn btn-primary btn-small" href="https://github.com/FarmaComGT/FarmaCom" target="_blank" rel="noopener">Ver código →</a></div>
+                <span>Proyecto en equipo de 5</span>
+              </div>
+            </div>
+            <aside class="project-facts">
+              <span class="fact-label mono">Commits</span><strong>391</strong>
+              <div class="fact-tech"><span class="fact-label mono">Tecnologías</span><div><i>Node.js</i><i>Express</i><i>React</i><i>Vite</i><i>Tailwind</i><i>PostgreSQL</i><i>Docker</i></div></div>
+            </aside>
+          </article>
+
+          <article class="project" data-project-name="SeLava">
+            <div class="project-main">
+              <div class="project-top"><span class="tag mono">Go · React · PostgreSQL</span><span class="project-index mono">02 / 06</span></div>
+              <h3>SeLava · Pedidos y servicios</h3>
+              <p>Plataforma full-stack para administrar pedidos y servicios mediante una API en Go y un panel web en React.</p>
+              <ul class="meta mono">
+                <li>JWT, permisos por rol y catálogo público</li>
+                <li>Búsqueda, filtros, fechas y paginación</li>
+                <li>PostgreSQL, Docker, OpenAPI y Vitest</li>
+              </ul>
+              <div class="project-actions">
+                <div class="project-links"><a class="link" href="https://github.com/ESJ0/selava-backend" target="_blank" rel="noopener">Backend →</a><a class="link" href="https://github.com/ESJ0/selava-admin-frontend" target="_blank" rel="noopener">Frontend →</a></div>
+                <span>Proyecto full-stack</span>
+              </div>
+            </div>
+            <aside class="project-facts">
+              <span class="fact-label mono">Commits</span><strong>160</strong>
+              <div class="fact-tech"><span class="fact-label mono">Tecnologías</span><div><i>Go</i><i>React</i><i>TypeScript</i><i>PostgreSQL</i><i>Docker</i><i>JWT</i></div></div>
+            </aside>
+          </article>
+
+          <article class="project" data-project-name="F1 Tracker">
+            <div class="project-main">
+              <div class="project-top"><span class="tag mono">Go · JavaScript · PostgreSQL</span><span class="project-index mono">03 / 06</span></div>
+              <h3>F1 Tracker · Pilotos, carreras y resultados</h3>
+              <p>Aplicación desplegada para explorar información de Fórmula 1 mediante un cliente web y una API REST propia.</p>
+              <ul class="meta mono">
+                <li>API con Go y Chi</li>
+                <li>Filtros, ordenamiento y paginación</li>
+                <li>Render, Fetch API y GitHub Pages</li>
+              </ul>
+              <div class="project-actions">
+                <div class="project-links"><a class="link" href="https://github.com/ESJ0/f1-tracker-backend" target="_blank" rel="noopener">Backend →</a><a class="link" href="https://github.com/ESJ0/f1-tracker-frontend" target="_blank" rel="noopener">Frontend →</a></div>
+                <span>Proyecto full-stack</span>
+              </div>
+            </div>
+            <aside class="project-facts">
+              <span class="fact-label mono">Commits</span><strong>26</strong>
+              <div class="fact-tech"><span class="fact-label mono">Tecnologías</span><div><i>Go</i><i>Chi</i><i>JavaScript</i><i>PostgreSQL</i><i>Render</i></div></div>
+            </aside>
+          </article>
+
+          <article class="project" data-project-name="OneDayBetter">
+            <div class="project-main">
+              <div class="project-top"><span class="tag mono">Kotlin · Jetpack Compose</span><span class="project-index mono">04 / 06</span></div>
+              <h3>OneDayBetter · Seguimiento de hábitos</h3>
+              <p>Aplicación Android para construir y mantener hábitos mediante seguimiento visual, organización y pequeños objetivos diarios.</p>
+              <ul class="meta mono">
+                <li>Interfaz declarativa con Material 3</li>
+                <li>Navegación segura con destinos tipados</li>
+                <li>Carga y caché de imágenes con Coil</li>
+              </ul>
+              <div class="project-actions">
+                <div class="project-links"><a class="btn btn-primary btn-small" href="https://github.com/ESJ0/OneDayBetter" target="_blank" rel="noopener">Ver código →</a></div>
+                <span>Aplicación móvil</span>
+              </div>
+            </div>
+            <aside class="project-facts">
+              <span class="fact-label mono">Commits</span><strong>21</strong>
+              <div class="fact-tech"><span class="fact-label mono">Tecnologías</span><div><i>Kotlin</i><i>Compose</i><i>Material 3</i><i>Coil</i></div></div>
+            </aside>
+          </article>
+
+          <article class="project" data-project-name="Raytracing">
+            <div class="project-main">
+              <div class="project-top"><span class="tag mono">Rust · Gráficos</span><span class="project-index mono">05 / 06</span></div>
+              <h3>Raytracing · Diorama de Mario</h3>
+              <p>Diorama interactivo construido con un trazador de rayos implementado desde cero y una escena inspirada en Super Mario Bros.</p>
+              <ul class="meta mono">
+                <li>Iluminación Phong y sombras suaves</li>
+                <li>Reflexiones y refracciones recursivas</li>
+                <li>Antialiasing y renderizado multihilo</li>
+              </ul>
+              <div class="project-actions">
+                <div class="project-links"><a class="btn btn-primary btn-small" href="https://github.com/ESJ0/Raytracing-Graficas" target="_blank" rel="noopener">Ver código →</a></div>
+                <span>Raytracer propio</span>
+              </div>
+            </div>
+            <aside class="project-facts">
+              <span class="fact-label mono">Commits</span><strong>5</strong>
+              <div class="fact-tech"><span class="fact-label mono">Tecnologías</span><div><i>Rust</i><i>Raytracing</i><i>Phong</i><i>Multihilo</i></div></div>
+            </aside>
+          </article>
+
+          <article class="project" data-project-name="HDT8">
+            <div class="project-main">
+              <div class="project-top"><span class="tag mono">Java · Heaps</span><span class="project-index mono">06 / 06</span></div>
+              <h3>HDT8 · Cola de prioridad para pacientes</h3>
+              <p>Simulación de atención de pacientes por prioridad usando una cola basada en un heap implementado sobre vectores.</p>
+              <ul class="meta mono">
+                <li>VectorHeap implementado desde cero</li>
+                <li>Comparación con PriorityQueue de Java</li>
+                <li>Lectura de datos y pruebas con JUnit</li>
+              </ul>
+              <div class="project-actions">
+                <div class="project-links"><a class="btn btn-primary btn-small" href="https://github.com/ESJ0/HDT8" target="_blank" rel="noopener">Ver código →</a></div>
+                <span>Proyecto académico</span>
+              </div>
+            </div>
+            <aside class="project-facts">
+              <span class="fact-label mono">Commits</span><strong>8</strong>
+              <div class="fact-tech"><span class="fact-label mono">Tecnologías</span><div><i>Java</i><i>JUnit</i><i>VectorHeap</i><i>PriorityQueue</i></div></div>
+            </aside>
+          </article>
+
+            </div>
+          </div>
+
+          <button class="carousel-arrow carousel-next" type="button" aria-label="Ver el proyecto siguiente" aria-controls="projectsTrack">→</button>
+        </div>
+
+        <div class="carousel-footer">
+          <div class="project-tabs" aria-label="Elegir proyecto"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section class="section alt" id="contacto">
+      <div class="container contact">
+        <div class="contact-copy">
+          <h2 class="section-title"><span class="mono num">04</span> Contacto</h2>
+          <p class="lead">Si quieres contactarme, ya sea para colaborar, resolver una duda o hablar de un proyecto, escríbeme a mi correo o búscame en GitHub.</p>
+          <div class="hero-actions">
+            <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=abril.jose1019%40gmail.com" class="btn btn-primary" target="_blank" rel="noopener">Escríbeme un correo</a>
+            <button class="btn btn-ghost" type="button" data-copy-email>Copiar correo</button>
+          </div>
+        </div>
+        <div class="contact-links">
+          <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=abril.jose1019%40gmail.com" target="_blank" rel="noopener">
+            <span><small class="mono">Correo</small><strong>abril.jose1019@gmail.com</strong></span><i aria-hidden="true">→</i>
+          </a>
+          <a href="https://github.com/ESJ0" target="_blank" rel="noopener">
+            <span><small class="mono">GitHub</small><strong>github.com/ESJ0</strong></span><i aria-hidden="true">→</i>
+          </a>
+          <a href="https://www.linkedin.com/in/jose-abril-suchite-a23196442" target="_blank" rel="noopener">
+            <span><small class="mono">LinkedIn</small><strong>Ver perfil</strong></span><i aria-hidden="true">→</i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p class="mono">© <span id="year">2026</span> Jose Abril · Hecho con HTML, CSS y JS · Alojado en GitHub Pages</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
